@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+}
+
+
+ div img {
+    width: 100%;
+    height: 2%;
+    border-radius: 4px;
+    padding: 5px;
+    
+  }
+  ul{
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    list-style: none;
+    
+       
+  }
+  li {
+    float: left;
+    
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+  }
+ 
+
+
+ .img2 {
+  width: 100%;
+  height: 20%;
+  border-radius: 4px;
+  padding: 1px;
+  align-self:center;
+
+ }
+.button1{
+  padding: 10px;
+}
+
+
+ body, html {
+  height: 100%;
+}
+
+.hero-image {
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
+height: 50%;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.hero-text {
+text-align: center;
+position: absolute;
+top: 280px;
+left: 25%;
+font-size: 25px;
+transform: translate(-50%, -50%);
+color:whitesmoke;
+}
+.about1{
+  padding: 4%;
+}
+.programs{
+  font-size: 25px;
+}
+.vision{
+  font-size: 25px;
+}
+
+.pad{
+  padding: 4%;
+}
+
+.mission{
+  font-size: 25px;
+}
+
+.ai-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("ai-ml.jpg");
+  
+  height: 50%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  
+  .ai-text {
+  text-align: center;
+  position: absolute;
+  top: 280px;
+  left: 25%;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  color:rgb(213, 227, 50);
+  }
+
+  .pad1{
+    padding: 4%;
+  }
+
+  .scope{
+    font-size: 25px;
+  }
+
+  .column {
+    float: left;
+    width: 24%;
+    padding: 5px;
+  }
+  
+  
+  .row::after {
+    content:"";
+    clear:both;
+    display: table;
+  }
+ .end{
+  background-color: black;
+  color: azure;
+  padding: 10px;
+ }
